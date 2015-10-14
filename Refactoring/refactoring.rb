@@ -10,6 +10,13 @@ puts "Esto se imprime si la condicion no se cumple" unless false
 
 puts 5 == 6 ? "5 != 6 is true" : "5 == 6 is false"
 
+def boolean_to_string(b)
+  puts b == true ? "true" : "false"
+end
+
+puts boolean_to_string(true)
+puts boolean_to_string(false)
+
 # When and Then: The case statement
 
 puts "Hello there!"
