@@ -108,6 +108,7 @@ def greeting
 end
 
 greeting do hi.call end
+greeting(&hi)
 
 # Symbols meet Procs
 # You can also convert symbols to procs using &:

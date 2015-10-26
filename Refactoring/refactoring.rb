@@ -19,7 +19,7 @@ puts boolean_to_string(false)
 
 # When and Then: The case statement
 
-puts "Hello there!"
+puts "Hello there!, select a language (French, German, English or Finnish): "
 greeting = gets.chomp
 
 case greeting
